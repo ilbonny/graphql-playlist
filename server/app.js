@@ -10,7 +10,7 @@ const cors = require('cors')
 app.use(cors())
 
 // connect to mlab database
-mongoose.connect('mongodb://ilbonny:ginger2003@ds211613.mlab.com:11613/gql-ninja')
+mongoose.connect('mongodb://ilbonny:mLab2003!@ds211613.mlab.com:11613/gql-ninja')
 mongoose.connection.once('open', ()=> {
     console.log('connected to database')
 })
